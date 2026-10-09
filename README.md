@@ -64,7 +64,7 @@ I also made the footer always stay at the bottom of the window. So it doesn't ha
 
 ## Colour scheme
 
-![My colour scheme](images/color-scheme.png)
+![My colour scheme]
 
 | Colour | Hex code | Where I used it |
 |---|---|---|
