@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Page is a fixed 960px box, columns use percentages */
+
+#wrapper { width: 960px; }
+
+.home-menu a { width: 30%; }
+
+/* About: photo on the left, text on the right */
+.photo {
+  float: left;
+  width: 30%;
+}
+
+.hello {
+  float: right;
+  width: 64%;
+}
+
+.hello h2 { margin-top: 0px; }
+
+video { width: 70%; }
+
+/* Projects: two boxes per row */
+.project {
+  float: left;
+  width: 40%;
+  min-height: 150px;
+  margin-right: 4%;
+}
+
+/* Contact form box */
+.form-box { width: 70%; }

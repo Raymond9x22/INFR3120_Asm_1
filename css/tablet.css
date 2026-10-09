@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* tablet.css - screens 481px to 960px */
+/* Page fills 90% of the screen, still two columns */
+
+#wrapper { width: 90%; }
+
+.menu a { font-size: small; }
+
+.home-menu a { width: 50%; }
+
+/* About: smaller photo left, text right */
+.photo {
+  float: left;
+  width: 35%;
+}
+
+.hello {
+  float: right;
+  width: 60%;
+}
+
+.hello h2 { margin-top: 0px; }
+
+video { width: 90%; }
+
+/* Projects: two boxes per row */
+.project {
+  float: left;
+  width: 40%;
+  min-height: 190px;
+  margin-right: 4%;
+}
+
+.form-box { width: 85%; }

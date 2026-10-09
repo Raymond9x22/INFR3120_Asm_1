@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* phone.css - screens 480px and narrower */
+
+#wrapper { padding-bottom: 130px; }
+footer { height: 100px;}
+
+/* Nav: two links per row instead of four */
+.menu li { width: 50%; }
+
+.menu a {
+  margin: 3px;
+  background-color: #EDF2F4;
+}
+
+.big-avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.intro { width: 90%; }
+
+.home-menu a { width: 80%; }
+
+/* About: photo on top, text below */
+.photo { text-align: center; }
+
+.photo img { width: 70%; }
+
+video { width: 100%; }
+
+/* Projects: one box per row */
+.project { width: auto; }
+
+/* Form fits the small screen */
+.form-box {
+  border-radius: 20px;
+  padding: 15px 5%;
+}
+
+.buttons input {
+  display: block;
+  width: 90%;
+}

@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* Colour from Adobe Color:*/
+/* #2B2D42 dark slate  - text, headings, footer        */
+/* #4A6FA5 soft blue   - links, borders, buttons        */
+/* #8D99AE grey blue   - lines, form borders            */
+/* #EDF2F4 light grey  - page background, boxes         */
+/* #F2A541 warm orange - hover colour on links/buttons  */
+
+body {
+  background-color: #EDF2F4;
+  color: #2B2D42;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* The wrapper holds the whole page (white box in the middle) */
+#wrapper {
+  background-color: white;
+  /* Fading White background*/
+  background: linear-gradient(to bottom, white 0%, #EDF2F4 100%);
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+h1, h2, h3 { color: #2B2D42; }
+a { color: #4A6FA5; }
+a:hover { color: #F2A541; }
+
+img { max-width: 100%; }
+
+
+/* Clears the floats so the next element starts on a new line */
+.clear { clear: both; }
+
+/* ---------- Header: LINEAR gradient (top to bottom) ---------- */
+header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #8D99AE;
+}
+
+/* Round avatar */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #4A6FA5;
+}
+
+.name {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Navigation row on About / Projects / Contact */
+.menu {
+  list-style: none;/* remove the bullets */
+  margin: 0px; /* remove the space around the list */
+  padding: 0px; /* remove the space on the left */
+}
+
+.menu li {
+  float: left;/* each item moves up and next to each */
+  width: 25%;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #2B2D42;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #4A6FA5;
+  color: white;
+}
+
+/* ---------- Home page ---------- */
+.home-header { border-bottom: none; }
+
+.big-avatar {
+  width: 160px;
+  height: 160px;
+  margin-top: 40px;
+}
+
+.intro {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Home menu: links stacked as large buttons */
+.home-menu {
+  list-style: none;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.home-menu a {
+  display: block;
+  margin: 15px auto;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: #4A6FA5;
+  border-radius: 25px;
+}
+
+.home-menu a:hover {
+  background-color: #F2A541;
+  color: #2B2D42;
+}
+
+/* ---------- Main content ---------- */
+main {
+  padding: 20px 5%;
+  line-height: 1.6;
+}
+
+/* ---------- About page ---------- */
+.photo { margin: 0px; }
+
+.photo img {
+  border: 3px solid #8D99AE;
+  border-radius: 10px;
+}
+
+#video-intro { text-align: center; }
+
+video {
+  background-color: black;
+  border: 3px solid #2B2D42;
+  border-radius: 10px;
+}
+
+/*---------- Projects page ---------- */
+.project {
+  border: 2px solid #2B2D42;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 20px;
+}
+
+
+
+.project h2 { margin-top: 0px; }
+
+/* ---------- Contact page ---------- */
+/* Form box: ANGLED linear gradient (45 degrees) */
+.form-box {
+  background-color: #EDF2F4;
+  background: linear-gradient(45deg, #EDF2F4 0%, white 100%);
+  border: 2px solid #2B2D42;
+  border-radius: 40px;
+  padding: 20px 5%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 8px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: medium;
+  border: 2px solid #8D99AE;
+  border-radius: 5px;
+}
+
+.buttons input {
+  width: auto;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #4A6FA5;
+  border: 2px solid #4A6FA5;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.buttons input:hover {
+  background-color: #F2A541;
+  border-color: #F2A541;
+  color: #2B2D42;
+}
+
+/* ---------- Footer: LINEAR gradient (left to right) ---------- */
+footer {
+  background-color: #2B2D42;
+  background: linear-gradient(to right, #2B2D42 0%, #4A6FA5 100%);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+}
+
+/* ---------- "I am not a robot" checkbox ---------- */
+/* Stop the checkbox from stretching to 90% wide like the text boxes */
+input[type="checkbox"] {
+  width: auto;
+}
+
+/* Put the label on the same line as the checkbox */
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+
+footer address { font-style: normal; }
+footer a { color: white; }
+footer a:hover { color: #F2A541; }
+footer p { margin-bottom: 0px; }
