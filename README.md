@@ -3,7 +3,7 @@
 This is my personal portfolio website for Assignment 1. It is a four-page website built with HTML5 and CSS3. It introduces who I am, shows my future projects, and lets visitors contact me.
 
 ## Links
-- GitHub: (https://github.com/Raymond9x22/INFR3120-Asm-1/tree/main)
+- GitHub: (https://github.com/Raymond9x22/INFR3120_Asm_1)
 
 ## Pages
 
